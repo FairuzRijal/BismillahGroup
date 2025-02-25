@@ -13,14 +13,7 @@ collection = db["sensor"]
 
 @app.route('/')
 def check():
-    return "Bisa cuy!!!!!!!"
-
-@app.route('/profile')
-def profile():
-    return """Nama: Ilham
-    Umur: 76
-    Lokasi: Di depan
-    """
+    return "Halloooooo"
 
 @app.route('/data', methods=['POST'])
 def collect_data():
